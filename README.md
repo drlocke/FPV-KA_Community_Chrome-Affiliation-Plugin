@@ -10,4 +10,4 @@ We're planning to add this addon to the firefox store when the development is do
 
 
 This plugin is reviewed and verified by Google. 
-You can find it in the addons store: Coming soon!
+You can find it in the addons store: https://chrome.google.com/webstore/detail/fpv-ka-affiliation-plugin/pbjlfhhdecpjeomilbofijajnbhdioki

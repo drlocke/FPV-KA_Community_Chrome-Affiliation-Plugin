@@ -23,17 +23,17 @@ function setRefCode(code)
 		var prefixUrl = url.substr(0, prefixIndex);
 		var postUrl = url.substr(prefixIndex);
 		
-		if (postUrl.includes('?')) {
-			if (postUrl.includes('p=')) {
+		if (postUrl.includes("?")) {
+			if (postUrl.includes("?p=") || postUrl.includes("&p=")) {
 				//replace existing ref code
-				var regex = new RegExp('p=\\w+&');
-				postUrl = postUrl.replace(regex, code + '&');
+				var regex = new RegExp("(?<=([?|&]))p=\\w+&");
+				postUrl = postUrl.replace(regex, code + "&");
 			} else {
 				//add our very own ref code to the front
-				postUrl = postUrl.replace('?', '?' + code + '&');
+				postUrl = postUrl.replace("?", "?" + code + "&");
 			}
 		} else {
-			postUrl = postUrl.concat('?' + code);
+			postUrl = postUrl.concat("?" + code);
 		}
 		
 		if (postUrl != null)

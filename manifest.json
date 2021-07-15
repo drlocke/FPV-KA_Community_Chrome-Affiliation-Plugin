@@ -9,7 +9,7 @@
 	"128": "icons/fpv128.png"
   },
   
-  "description": "This plugin extends or replaces parts of your URL with an affiliation code. You can set your own code or use our predefined default value to support us.This plugin extends or replaces parts of your URL with an affiliation code. Currently it only supports BangGood but further stores are planned. The default value of the affiliation code is our very own which we are using for our FPV-KA Community (https://fpv-ka.de) but you can change it in the plugin settings. Open Source: https://github.com/drlocke/FPV-KA_Community_Chrome-Affiliation-Plugin",
+  "description": "This plugin extends your URL with the FPV-KA community affiliation code. Open source: https://bit.ly/FPV-KA-Chrome",
 
   "content_scripts": [
     {
